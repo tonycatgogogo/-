@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title> resume page</title>
+  
+  </head>
+  <body>
+    
+    <img id="tutu" src="img/tutu.jpg"/>
+    <h1 id="title", align="center">my resume</h1>
+    <h4>my information</h4>
+   <p>
+     <ul>
+       <li><b>name：</b>dutongtong </li>
+       <li><b>email：</b>www.baidu .com</li>
+     </ul>
+    </p>
+  <h4>my experience</h4>
+ <p>
+     <ul>
+       <li><b>2018-1-12: </b>???? </li>
+      <li><b>2018-1-12: </b>???? </li>
+     </ul>
+    </p>
+  <h4>my skill</h4>
+<p>
+     <ul>
+       <li><b>html </b>30% </li>
+       <li><b>css </b>10% </li>
+     </ul>
+    </p>
+</body>
+</html>
