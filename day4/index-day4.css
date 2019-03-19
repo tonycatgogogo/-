@@ -1,0 +1,133 @@
+/*首页page-1开始*/
+html,body {
+    width: 100%;
+    height: 100%;
+}
+#page-1{
+    display: flex;
+    /* #F5F5F5 */
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #8697ff;
+    color: #FAFAF6;
+}
+#page-1 .title {
+    font-size: 100px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+#page-1 .information,
+#page-1 .hrWord{
+    line-height:80px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 100;
+}
+/*header部分开始*/
+header {
+    width: 100%;
+    height: 200px;
+}
+
+.container {
+    width: 1100px;
+    margin: 50px auto 0 ;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.header-aside {
+    position: absolute;
+    top: -20px;
+    left: 50px;
+}
+
+.header-aside img {
+    height: 200px;
+    width: 150px;
+}
+
+.header-main {
+    float: left;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.header-main .top {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 52px;
+    height: 52px;
+    background-color: #466eff;
+}
+
+.header-main .top h2 {
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 200px;
+}
+
+.header-main .top span {
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+.header-main .bottom {
+    padding-left: 200px;
+}
+.header-main .bottom .col1 {
+    width: 200px;
+}
+.header-main .bottom .col2 {
+    width: 300px;
+}
+.header-main .bottom .col3 {
+    width: 400px;
+}
+.header-main .bottom .col {
+    float: left;
+}
+.header-main .bottom .col span,
+.header-main .bottom .col a{
+    display: block;
+    margin: 15px 50px 15px 20px;
+    text-align: left;
+    font-size: 16px;
+}
+.header-main .bottom .col a {
+    text-decoration: none;
+}
+
+/*main部分开始*/
+main .row {
+    margin-bottom: 50px;
+}
+main .row h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #1426a7;
+    line-height: 36px;
+    height: 36px;
+}
+main .row1 p{
+    font-size: 16px;
+    margin-left: 110px;
+    line-height: 36px;
+    height: 36px;
+}
+
+/*footer部分开始*/
+footer {
+
+}
+footer h3 {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
